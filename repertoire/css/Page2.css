@@ -1,0 +1,87 @@
+body {
+    background-image: url('/images/Nekkeii.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Roboto', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .center-title {
+    text-align: center;
+    color: #fff;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  
+  .navbar {
+    width: 100%;
+  }
+  
+  .navbar-nav {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .navbar-brand img {
+    max-width: 30px;
+  }
+  
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #ccc7c7;
+  }
+  
+  .navbar-nav .nav-link {
+    font-size: 1rem;
+    transition: font-size 0.3s ease;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #463a3a9a;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+    font-size: 1.1rem;
+  }
+  
+  .navbar-brand:hover img {
+    transform: scale(1.2);
+    transition: transform 0.3s ease;
+  }
+  
+  .center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+  }
+  
+  .quiz-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%; /* Ajustez la largeur selon vos besoins */
+    max-width: 800px; /* Ajustez la largeur maximale selon vos besoins */
+    height: 80%;
+    max-height: 800px;
+    text-align: center;
+  }
+  
