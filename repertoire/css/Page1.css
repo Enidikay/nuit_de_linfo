@@ -1,0 +1,68 @@
+body {
+    background-image: url('/images/Nekkeii.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Roboto', sans-serif; /* Utilisation de la police Google Fonts */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .center-title {
+    text-align: center;
+    color: #fff; /* Couleur du texte */
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  
+  .navbar {
+    width: 100%;
+  }
+  
+  .navbar-nav {
+    margin: auto; /* Pour centrer les éléments au milieu */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .navbar-brand img {
+    max-width: 30px;
+  }
+  
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem; /* Taille du titre, ajustez selon vos besoins */
+  }
+  
+  h2 {
+    text-align: center;
+    color: #ccc7c7;
+  }
+  
+  .navbar-nav .nav-link {
+    font-size: 1rem; /* Ajustez la taille de la police selon vos besoins */
+    transition: font-size 0.3s ease; /* Ajoute une transition fluide sur la taille de la police */
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #463a3a9a; /* Couleur du texte lors du survol */
+    background-color: rgba(255, 255, 255, 0.2); /* Couleur de fond transparente lors du survol */
+    border-radius: 8px; /* Arrondir les coins */
+    font-size: 1.1rem; /* Taille de la police au survol, ajustez selon vos besoins */
+  }
+  
+  .navbar-brand:hover img {
+    transform: scale(1.2); /* Ajustez la valeur selon vos besoins */
+    transition: transform 0.3s ease; /* Ajoute une transition fluide sur l'échelle */
+  }
+  
